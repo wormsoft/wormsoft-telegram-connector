@@ -7,6 +7,7 @@ export interface SimpleConfig {
     appName: string;
     botInfo: TT.User;
     brainInit: (brain: MainTelegramBrain) => void;
+    appConfig: any
 }
 
 export interface WSTelegramConfig {

@@ -1,0 +1,16 @@
+[
+  {
+    "token": "token_1",
+    "appConfig": {
+      "adminSupportChat": -123
+    },
+    "appName": "App 1"
+  },
+  {
+    "token": "token_2",
+    "appConfig": {
+      "adminSupportChat": -123
+    },
+    "appName": "App 2"
+  }
+]
