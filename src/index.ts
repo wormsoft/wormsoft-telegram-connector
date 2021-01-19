@@ -1,4 +1,4 @@
-import { WSTelegramConfig } from './lib/config/config';
+import { WSTelegramConfig } from './lib/config';
 import { MainTelegramBrain } from './lib/brain';
 import { SceneContext } from 'telegraf/typings/scenes';
 import { WSTContext } from './lib/global/context';

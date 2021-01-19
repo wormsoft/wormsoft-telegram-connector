@@ -1,5 +1,5 @@
 import { WSTelegramConnector } from '../connector';
-import { SimpleConfig } from '../config/config';
+import { SimpleConfig } from '../config';
 import { Telegraf } from 'telegraf';
 import { SceneContext } from 'telegraf/typings/scenes';
 import { WSTContext } from '../global/context';

@@ -1,4 +1,4 @@
-import { SimpleConfig } from './config';
+import { SimpleConfig } from './index';
 
 export class ConfigCreator {
     public createFromJsonString(str: string): SimpleConfig[] {

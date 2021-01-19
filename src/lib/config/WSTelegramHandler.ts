@@ -1,4 +1,4 @@
-import { SimpleConfig } from './config';
+import { SimpleConfig } from './index';
 
 
 
