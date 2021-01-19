@@ -1,9 +1,6 @@
-import { WSTelegramConfig } from './lib/config';
+import { SimpleConfig as BSimpleConfig, WSTelegramConfig } from './lib/config';
 import { MainTelegramBrain } from './lib/brain';
-import { SceneContext } from 'telegraf/typings/scenes';
-import { WSTContext } from './lib/global/context';
-import { Telegraf } from 'telegraf';
-import { WSTelegramConnector } from './lib/connector';
+import { ConfigCreator as BaseConfigCreator } from './lib/config/ConfigCreator';
 
 export class WSTelegramHandler {
     public async initBrains(config: WSTelegramConfig): Promise<MainTelegramBrain[]> {
@@ -28,3 +25,6 @@ export class WSTelegramHandler {
             });
     }
 }
+
+export class ConfigCreator extends BaseConfigCreator {}
+export interface SimpleConfig extends BSimpleConfig {}

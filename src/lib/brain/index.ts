@@ -22,9 +22,6 @@ export class MainTelegramBrain {
         return this._connector.loadInfo()
             .then((user) => {
                 if (user) {
-                    if (!this.config.appName && user.username) {
-                        this.config.appName = user.username;
-                    }
                     if (!this.config.botInfo && user) {
                         this.config.botInfo = user;
                     }
