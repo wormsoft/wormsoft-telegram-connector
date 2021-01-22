@@ -1,8 +1,7 @@
 import { WSTelegramHandler } from '../';
 import { ConfigCreator } from '../lib/config/ConfigCreator';
+import preparedConfig from './initConfig';
 
-const checkBotConfig = process.env.TELEGRAM_BOT_CONFIG || require('mockconfig.json');
-const preparedConfig = (new ConfigCreator).createFromJsonString(checkBotConfig);
 preparedConfig.map(config => {
     config.brainInit = (brain) => {
         brain.connector.telegraf.on('message', (ctx) => {
