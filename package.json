@@ -30,6 +30,10 @@
     "url": "https://github.com/wormsoft/wormsoft-telegram-connector/issues"
   },
   "homepage": "https://github.com/wormsoft/wormsoft-telegram-connector#readme",
+  "publishConfig": {
+    "access": "public",
+    "branches": ["master"]
+  },
   "devDependencies": {
     "@types/jest": "26.0.20",
     "jest": "26.6.3",
