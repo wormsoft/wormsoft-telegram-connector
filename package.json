@@ -27,9 +27,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wormsoft/wormsoft-telegram-connector/issues"
+    "url": "https://github.com/lastdoctor/wormsoft-telegram-connector/issues"
   },
-  "homepage": "https://github.com/wormsoft/wormsoft-telegram-connector#readme",
+  "homepage": "https://github.com/lastdoctor/wormsoft-telegram-connector#readme",
   "publishConfig": {
     "access": "public",
     "branches": ["master"]
