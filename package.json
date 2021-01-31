@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lastdoctor/wormsoft-telegram-connector.git"
+    "url": "git+https://github.com/wormsoft/wormsoft-telegram-connector.git"
   },
   "author": "",
   "license": "ISC",
