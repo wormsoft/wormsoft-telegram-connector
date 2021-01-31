@@ -14,10 +14,22 @@
     "check-node": "node lib/check/scenes.js",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git pusg --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wormsoft/wormsoft-telegram-connector.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wormsoft/wormsoft-telegram-connector/issues"
+  },
+  "homepage": "https://github.com/wormsoft/wormsoft-telegram-connector#readme",
   "devDependencies": {
     "@types/jest": "26.0.20",
     "jest": "26.6.3",
