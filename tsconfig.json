@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
     "outDir": "./lib",
     "strict": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "incremental": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "exclude": ["node_modules", "**/__tests__/*", "test", "lib"]
 }
