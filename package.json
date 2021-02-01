@@ -15,7 +15,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublish": "npm run test && npm run lint",
+    "prepublishOnly": "npm run test",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git pusg --tags"
