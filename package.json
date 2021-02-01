@@ -22,18 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lastdoctor/wormsoft-telegram-connector.git"
+    "url": "git+https://github.com/wormsoft/wormsoft-telegram-connector.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lastdoctor/wormsoft-telegram-connector/issues"
+    "url": "https://github.com/wormsoft/wormsoft-telegram-connector/issues"
   },
-  "homepage": "https://github.com/lastdoctor/wormsoft-telegram-connector#readme",
-  "publishConfig": {
-    "access": "public",
-    "branches": ["master"]
-  },
+  "homepage": "https://github.com/wormsoft/wormsoft-telegram-connector#readme",
   "devDependencies": {
     "@types/jest": "26.0.20",
     "jest": "26.6.3",
