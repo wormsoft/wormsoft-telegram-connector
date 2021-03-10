@@ -11,7 +11,7 @@
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "check": "ts-node src/check/index.ts",
-    "check-node": "node lib/check/scenes.js",
+    "check-node": "node lib/check/menu.js",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build"

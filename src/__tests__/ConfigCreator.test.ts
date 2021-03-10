@@ -8,3 +8,4 @@ test("Creating Config", () => {
     const config = creator.createFromJsonString(checkBotConfig);
     expect(config.length).toEqual(2);
 })
+
