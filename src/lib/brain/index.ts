@@ -1,7 +1,6 @@
 import { WSTelegramConnector } from '../connector';
 import { SimpleConfig } from '../config';
 import { Telegraf } from 'telegraf';
-import { SceneContext } from 'telegraf/typings/scenes';
 import { WSTContext } from '../global/context';
 
 export class MainTelegramBrain {
@@ -14,7 +13,7 @@ export class MainTelegramBrain {
     constructor(
         private config: SimpleConfig
     ) {
-        const telegraf = new Telegraf<SceneContext<WSTContext>>(this.config.token);
+        const telegraf = new Telegraf<WSTContext>(this.config.token);
         this._connector = new WSTelegramConnector(telegraf);
     }
 

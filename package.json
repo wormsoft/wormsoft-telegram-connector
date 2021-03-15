@@ -1,6 +1,6 @@
 {
   "name": "wormsoft-telegram-connector",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,7 @@
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "check": "ts-node src/check/index.ts",
-    "check-node": "node lib/check/menu.js",
+    "check-node": "node lib/check/scenes.js",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
@@ -43,7 +43,7 @@
   "dependencies": {
     "@types/node": "14.14.21",
     "@types/node-fetch": "2.5.8",
-    "telegraf": "4.0.1",
+    "telegraf": "4.2.1",
     "telegram-typings": "5.0.0"
   }
 }
